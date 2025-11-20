@@ -1353,7 +1353,7 @@ spec:
         - envFrom:
             - secretRef:
                 name: fights-db-config
-          image: docker.io/mongo:8
+          image: docker.io/mongo:7
           name: fights-db
           ports:
             - containerPort: 27017
